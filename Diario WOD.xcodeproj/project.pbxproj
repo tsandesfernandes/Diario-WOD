@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F1AE22971A56B2D400BC5162 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE22961A56B2D400BC5162 /* AppDelegate.swift */; };
+		F1AE22991A56B2D400BC5162 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE22981A56B2D400BC5162 /* ViewController.swift */; };
+		F1AE229C1A56B2D400BC5162 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1AE229A1A56B2D400BC5162 /* Main.storyboard */; };
+		F1AE229E1A56B2D400BC5162 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1AE229D1A56B2D400BC5162 /* Images.xcassets */; };
+		F1AE22A11A56B2D400BC5162 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1AE229F1A56B2D400BC5162 /* LaunchScreen.xib */; };
+		F1AE22AD1A56B2D400BC5162 /* Diario_WODTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AE22AC1A56B2D400BC5162 /* Diario_WODTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F1AE22A71A56B2D400BC5162 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F1AE22891A56B2D400BC5162 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1AE22901A56B2D400BC5162;
+			remoteInfo = "Diario WOD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F1AE22911A56B2D400BC5162 /* Diario WOD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Diario WOD.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AE22951A56B2D400BC5162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AE22961A56B2D400BC5162 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F1AE22981A56B2D400BC5162 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F1AE229B1A56B2D400BC5162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F1AE229D1A56B2D400BC5162 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F1AE22A01A56B2D400BC5162 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F1AE22A61A56B2D400BC5162 /* Diario WODTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Diario WODTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AE22AB1A56B2D400BC5162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1AE22AC1A56B2D400BC5162 /* Diario_WODTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diario_WODTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F1AE228E1A56B2D400BC5162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AE22A31A56B2D400BC5162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F1AE22881A56B2D400BC5162 = {
+			isa = PBXGroup;
+			children = (
+				F1AE22931A56B2D400BC5162 /* Diario WOD */,
+				F1AE22A91A56B2D400BC5162 /* Diario WODTests */,
+				F1AE22921A56B2D400BC5162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F1AE22921A56B2D400BC5162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F1AE22911A56B2D400BC5162 /* Diario WOD.app */,
+				F1AE22A61A56B2D400BC5162 /* Diario WODTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1AE22931A56B2D400BC5162 /* Diario WOD */ = {
+			isa = PBXGroup;
+			children = (
+				F1AE22961A56B2D400BC5162 /* AppDelegate.swift */,
+				F1AE22981A56B2D400BC5162 /* ViewController.swift */,
+				F1AE229A1A56B2D400BC5162 /* Main.storyboard */,
+				F1AE229D1A56B2D400BC5162 /* Images.xcassets */,
+				F1AE229F1A56B2D400BC5162 /* LaunchScreen.xib */,
+				F1AE22941A56B2D400BC5162 /* Supporting Files */,
+			);
+			path = "Diario WOD";
+			sourceTree = "<group>";
+		};
+		F1AE22941A56B2D400BC5162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1AE22951A56B2D400BC5162 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1AE22A91A56B2D400BC5162 /* Diario WODTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1AE22AC1A56B2D400BC5162 /* Diario_WODTests.swift */,
+				F1AE22AA1A56B2D400BC5162 /* Supporting Files */,
+			);
+			path = "Diario WODTests";
+			sourceTree = "<group>";
+		};
+		F1AE22AA1A56B2D400BC5162 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1AE22AB1A56B2D400BC5162 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F1AE22901A56B2D400BC5162 /* Diario WOD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AE22B01A56B2D400BC5162 /* Build configuration list for PBXNativeTarget "Diario WOD" */;
+			buildPhases = (
+				F1AE228D1A56B2D400BC5162 /* Sources */,
+				F1AE228E1A56B2D400BC5162 /* Frameworks */,
+				F1AE228F1A56B2D400BC5162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Diario WOD";
+			productName = "Diario WOD";
+			productReference = F1AE22911A56B2D400BC5162 /* Diario WOD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F1AE22A51A56B2D400BC5162 /* Diario WODTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1AE22B31A56B2D400BC5162 /* Build configuration list for PBXNativeTarget "Diario WODTests" */;
+			buildPhases = (
+				F1AE22A21A56B2D400BC5162 /* Sources */,
+				F1AE22A31A56B2D400BC5162 /* Frameworks */,
+				F1AE22A41A56B2D400BC5162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1AE22A81A56B2D400BC5162 /* PBXTargetDependency */,
+			);
+			name = "Diario WODTests";
+			productName = "Diario WODTests";
+			productReference = F1AE22A61A56B2D400BC5162 /* Diario WODTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F1AE22891A56B2D400BC5162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Tiago Sandes Fernandes";
+				TargetAttributes = {
+					F1AE22901A56B2D400BC5162 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					F1AE22A51A56B2D400BC5162 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = F1AE22901A56B2D400BC5162;
+					};
+				};
+			};
+			buildConfigurationList = F1AE228C1A56B2D400BC5162 /* Build configuration list for PBXProject "Diario WOD" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F1AE22881A56B2D400BC5162;
+			productRefGroup = F1AE22921A56B2D400BC5162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F1AE22901A56B2D400BC5162 /* Diario WOD */,
+				F1AE22A51A56B2D400BC5162 /* Diario WODTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F1AE228F1A56B2D400BC5162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AE229C1A56B2D400BC5162 /* Main.storyboard in Resources */,
+				F1AE22A11A56B2D400BC5162 /* LaunchScreen.xib in Resources */,
+				F1AE229E1A56B2D400BC5162 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AE22A41A56B2D400BC5162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F1AE228D1A56B2D400BC5162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AE22991A56B2D400BC5162 /* ViewController.swift in Sources */,
+				F1AE22971A56B2D400BC5162 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1AE22A21A56B2D400BC5162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1AE22AD1A56B2D400BC5162 /* Diario_WODTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F1AE22A81A56B2D400BC5162 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F1AE22901A56B2D400BC5162 /* Diario WOD */;
+			targetProxy = F1AE22A71A56B2D400BC5162 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F1AE229A1A56B2D400BC5162 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AE229B1A56B2D400BC5162 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F1AE229F1A56B2D400BC5162 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F1AE22A01A56B2D400BC5162 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F1AE22AE1A56B2D400BC5162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F1AE22AF1A56B2D400BC5162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F1AE22B11A56B2D400BC5162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Diario WOD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F1AE22B21A56B2D400BC5162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Diario WOD/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F1AE22B41A56B2D400BC5162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Diario WODTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diario WOD.app/Diario WOD";
+			};
+			name = Debug;
+		};
+		F1AE22B51A56B2D400BC5162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Diario WODTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Diario WOD.app/Diario WOD";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F1AE228C1A56B2D400BC5162 /* Build configuration list for PBXProject "Diario WOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AE22AE1A56B2D400BC5162 /* Debug */,
+				F1AE22AF1A56B2D400BC5162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1AE22B01A56B2D400BC5162 /* Build configuration list for PBXNativeTarget "Diario WOD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AE22B11A56B2D400BC5162 /* Debug */,
+				F1AE22B21A56B2D400BC5162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F1AE22B31A56B2D400BC5162 /* Build configuration list for PBXNativeTarget "Diario WODTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1AE22B41A56B2D400BC5162 /* Debug */,
+				F1AE22B51A56B2D400BC5162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F1AE22891A56B2D400BC5162 /* Project object */;
+}
